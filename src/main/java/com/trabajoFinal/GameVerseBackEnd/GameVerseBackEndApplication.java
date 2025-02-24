@@ -1,13 +1,13 @@
-package com.trabajoFinal.GustavioBackEnd;
+package com.trabajoFinal.GameVerseBackEnd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GustavioBackEndApplication {
+public class GameVerseBackEndApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GustavioBackEndApplication.class, args);
+		SpringApplication.run(GameVerseBackEndApplication.class, args);
 	}
 
 }
