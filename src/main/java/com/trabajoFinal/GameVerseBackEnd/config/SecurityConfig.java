@@ -29,7 +29,8 @@ public class SecurityConfig {
         http.csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
-                                "/usuarios"
+                                "/usuarios",
+                                "/videojuegos"
                         )
                         .permitAll() // Permitir acceso público
                         .anyRequest().authenticated() // Proteger el resto de las rutas
